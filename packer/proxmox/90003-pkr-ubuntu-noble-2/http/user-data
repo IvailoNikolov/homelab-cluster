@@ -22,8 +22,8 @@ autoinstall:
     timezone: Europe/Sofia
     ssh_pwauth: true
     users:
-      - name: admin
-        groups: [ubuntu, sudo]
+      - name: ubuntu
+        groups: [adm, sudo]
         lock-passwd: false
         sudo: ALL=(ALL) NOPASSWD:ALL
         shell: /bin/bash
